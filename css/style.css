@@ -1,0 +1,105 @@
+
+
+ article{
+     background-color:#FFFFFF;
+     padding: 15px 15px 15px 15px;
+     box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+
+     border: 5px;
+     color:#4a4a4a;
+ }
+ .post {
+
+ }
+ .reply {
+     background: #FFFFFF;
+     border: 5px;
+     box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+     border-top: none;
+     padding: 10px;
+     padding-bottom: 0px;
+ }
+ .postdate {
+     font-size:1em;
+     color:#1b2d4b;
+ }
+
+ hr {
+     height: 1px;
+     width: 100%;
+     background-color: #1b2d4b;
+     border: none;
+ }
+
+ input {
+     width: 100%;
+     border: 5px;
+     box-sizing : border-box;
+     box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+     background-color:#FFFFFF;
+     padding: 1.25rem;
+     color: #4a4a4a;
+ }
+ input:focus, textarea:focus, select:focus{
+     outline: none;
+ }
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+     color: gray;
+     opacity: 1; /* Firefox */
+ }
+
+ .user_name {
+    position: absolute;
+    padding: 20px;
+
+ }
+
+ .message_text{  padding-left: 85px;
+    color:gray;
+
+ }
+.postdate{  padding-left:  585px;
+}
+
+.reply_name{
+    position: absolute;
+    padding: 6px;
+
+ }
+
+ .message_reply{
+
+    padding-left: 42px;
+ }
+
+ .postdate_reply{  padding-left:  585px;
+    font-size: 0.9em;
+
+ }
+
+.insta_post{
+max-width: -webkit-fill-available;
+min-width: 770px;
+
+}
+
+
+*{
+margin: 0px;
+padding: 0px;
+}
+*::selection{
+margin: 0px;
+padding: 0px;
+background-color: yellow;
+}
+
+
+
+
+.social_media { width:800px;
+    margin:auto;
+    }
+
+    #feed{    margin-top: 20px;
+    }
